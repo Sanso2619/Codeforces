@@ -1,3 +1,10 @@
+/*
+ Note:
+ Scanner is avoided here because it is too slow for large inputs and can cause
+ Time Limit Exceeded errors. BufferedReader with StringTokenizer is used instead
+ for faster input handling, along with StringBuilder for efficient output.
+*/
+
 import java.io.*;
 import java.util.*;
 
