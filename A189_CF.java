@@ -1,6 +1,8 @@
-
-import java.util.Scanner;
-
+// Learning Note:
+// This problem allows unlimited usage of lengths a, b, and c.
+// The ribbon must be cut to use the full length exactly (no leftovers).
+// Simple division fails, so we try valid combinations.
+// Since constraints are small, brute force works and we keep the maximum number of pieces.
 public class A189_CF {
     public static void main(String[]args){
         Scanner scn = new Scanner(System.in);
